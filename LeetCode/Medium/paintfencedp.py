@@ -10,5 +10,5 @@ def count(n,k):
         dp[i] - ((k-1)*(dp[i-1]+dp[i-2]))%mod
     return dp[n]
 
- n = 3
- k = 2       
+n = 3
+k = 2       
