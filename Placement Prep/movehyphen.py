@@ -6,7 +6,7 @@ def movehyphen(str):
             hyphen+=i
         else:
             word+=i
-    print(hyphen,word)
+    print(hyphen+word)
 
 str = "Move-Hyphens-to-Front"
 movehyphen(str)
