@@ -5,8 +5,7 @@ def mergeK(arr, k):
      
     l = arr[0]
     for i in range(k-1):
-         
-      
+     
         l = list(merge(l, arr[i + 1]))
     return l
  
