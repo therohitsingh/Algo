@@ -21,7 +21,7 @@ def pop(stack,item):
       
     return stack.pop()  
 
- def peek(stack): 
+def peek(stack): 
     if (isEmpty(stack)): 
         return str(-maxsize -1)  
     return stack[len(stack) - 1]    

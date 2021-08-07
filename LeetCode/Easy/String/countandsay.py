@@ -38,8 +38,5 @@ def countAndSay(self, n: int) -> str:
                     # then reinitialize the new counter
                     counter_num = 1
                     
-            # for the last number, just add the most recent counter and the last number
             count_and_say += (str(counter_num)+str(prev[len(prev)-1]))
-            
-            # return the count and say string
             return count_and_say
