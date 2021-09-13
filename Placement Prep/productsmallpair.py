@@ -13,7 +13,7 @@ def ProductSmallestPair(sum, a):
     for j in range(n):
         for k in range(j+1,n):
             if(a[j]+a[k]<=sum):
-                print(a[j*a[k]])
+                print(a[j]*a[k]])
                 break
             else:
                 return 0    
